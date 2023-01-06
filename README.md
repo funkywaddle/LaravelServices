@@ -1,8 +1,6 @@
 # LaravelServices
 * **This is still a work in progress.**
 
-Laravel Services provides 2 Artisan commands allowing you to create ServiceProviders and Services through the Artisan CLI.
-
 ## INSTALLATION
 
 ```
@@ -10,6 +8,8 @@ composer require funkywaddle/laravel-services
 ```
 
 ## WHAT IT PROVIDES
+
+Laravel Services provides 2 Artisan commands allowing you to create ServiceProviders and Services through the Artisan CLI.
 
 It creates 2 directories in your Laravel `app/` directory. One is `app/Services` and the other is `app/ServiceProviders`.
 
