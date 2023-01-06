@@ -1,0 +1,29 @@
+{
+    "name": "funkywaddle/laravel-services",
+    "description": "A set of Artisan Make commands for Services and ServiceProviders",
+    "type": "commands",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Funkywaddle\\LaravelServices\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Funky Waddle",
+            "email": "funkywaddle@funkywaddle.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "illuminate/support": "^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Funkywaddle\\LaravelServices\\Providers\\LaravelServicesServiceProvider"
+            ]
+        }
+    }
+}

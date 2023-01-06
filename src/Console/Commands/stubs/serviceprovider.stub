@@ -1,0 +1,14 @@
+<?php
+namespace {{ namespace }};
+
+use Illuminate\Support\ServiceProvider;
+use App\Services\{{ service }};
+use App\Models\{{ model }};
+
+class {{ class }} extends ServiceProvider {
+    public function register() {
+        $this->app->bind({{ service }}::class, function ($app) {
+            return new {{ service }}(new {{ model }}());
+        });
+    }
+}
